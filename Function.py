@@ -1,0 +1,16 @@
+# a = 8
+# b = 9
+# c = sum((a, b))# builtin function
+# print(c)
+def function1(a, b):
+    print("you are in fuction1", a+b)
+
+def function2(a, b):
+    """This is a function in which we can calculate two numbers"""
+    average = (a+b)/2
+    #print(average)
+    return (average)
+
+# v = function2(5, 7)
+# print(v)
+print(function2.__doc__)
